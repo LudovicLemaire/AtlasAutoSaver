@@ -1,5 +1,5 @@
 # AtlasAutoSaver
-An AutoSave program on Atlas for SoloPlayer.
+An AutoSave program on Atlas for SoloPlayer and Non-dedicated Multiplayer.
 
 
 **--- DESCRIPTION ---**

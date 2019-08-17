@@ -4,7 +4,7 @@ An AutoSave program on Atlas for SoloPlayer.
 
 
 
-**DESCRIPTION**
+**--- DESCRIPTION ---**
 
 
 Each X minutes, the program will copy your SoloPlayer save folder into a backup folder with the current time as name.
@@ -14,7 +14,7 @@ It allows you to use theses back-up if you destoyed everything with an inentende
 
 
 
-**HOW TO USE**
+**--- HOW TO USE---**
 
 Open the config.ini, then set :
   - your game path
@@ -32,10 +32,7 @@ This will ask you if you want to save Ocean or Blackwood, then it will launch th
 
 The program will check if the game is running before each new save, and will Exit if not.
 
-
-
-
-**.INI INFO**
+**--- .INI INFO ---**
 
 *blackwoodSaveFolderPath* is the path of your current Blackwood save folder.
 

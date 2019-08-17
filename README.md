@@ -24,9 +24,15 @@ This will ask you if you want to save Ocean or Blackwood, then it will launch th
 The program will check if the game is running before each new save, and will Exit if not.
 
 **.INI INFO**
+
 *blackwoodSaveFolderPath* is the path of your current Blackwood save folder.
+
 *blackwoodBackupFolderPath* is where you want to store your Blackwood backups.
+
 *oceanSaveFolderPath* is the path of your current Ocean save folder.
+
 *oceanBackupFolderPath* is where you want to store your Ocean backups.
+
 *gamePath* is where Atlas is, should be "..\AtlasGame.exe".
+
 *saveTime* is time between each new save, in minutes.

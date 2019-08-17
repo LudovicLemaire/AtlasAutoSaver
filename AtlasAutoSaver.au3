@@ -8,12 +8,12 @@ If ($iAnswer == 2) Then
 EndIf
 
 $proces="AtlasGame.exe"
-$blackwoodSaveFolderPath = IniRead("config.ini", "General", "blackwoodSaveFolderPath", "0")
-$blackwoodBackupFolderPath = IniRead("config.ini", "General", "blackwoodBackupFolderPath", "0")
-$oceanSaveFolderPath = IniRead("config.ini", "General", "oceanSaveFolderPath", "0")
-$oceanBackupFolderPath = IniRead("config.ini", "General", "oceanBackupFolderPath", "0")
-$gamePath = IniRead("config.ini", "General", "gamePath", "0")
-$saveTime = IniRead("config.ini", "General", "saveTime", "0")
+$blackwoodSaveFolderPath = IniRead("config.ini", "Paths", "blackwoodSaveFolderPath", "0")
+$blackwoodBackupFolderPath = IniRead("config.ini", "Paths", "blackwoodBackupFolderPath", "0")
+$oceanSaveFolderPath = IniRead("config.ini", "Paths", "oceanSaveFolderPath", "0")
+$oceanBackupFolderPath = IniRead("config.ini", "Paths", "oceanBackupFolderPath", "0")
+$gamePath = IniRead("config.ini", "Paths", "gamePath", "0")
+$saveTime = IniRead("config.ini", "Timer", "saveTime", "0")
 $saveTime *= 60 * 1000
 ShellExecute($gamePath)
 DirCreate ($blackwoodBackupFolderPath)

@@ -31,14 +31,14 @@ The program will check if the game is running before each new save, and will Exi
 
 **--- .INI INFO ---**
 
-*blackwoodSaveFolderPath* is the path of your current Blackwood save folder.
+*blackwoodSaveFolderPath=* is the path of your current Blackwood save folder.
 
-*blackwoodBackupFolderPath* is where you want to store your Blackwood backups.
+*blackwoodBackupFolderPath=* is where you want to store your Blackwood backups.
 
-*oceanSaveFolderPath* is the path of your current Ocean save folder.
+*oceanSaveFolderPath=* is the path of your current Ocean save folder.
 
-*oceanBackupFolderPath* is where you want to store your Ocean backups.
+*oceanBackupFolderPath=* is where you want to store your Ocean backups.
 
-*gamePath* is where Atlas is, should be "..\AtlasGame.exe".
+*gamePath=* is where Atlas is, should be "..\AtlasGame.exe".
 
-*saveTime* is time between each new save, in minutes.
+*saveTime=* is time between each new save, in minutes.

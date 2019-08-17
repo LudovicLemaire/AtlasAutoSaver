@@ -2,12 +2,16 @@
 An AutoSave program on Atlas for SoloPlayer.
 
 
+
+
 **DESCRIPTION**
 
 
 Each X minutes, the program will copy your SoloPlayer save folder into a backup folder with the current time as name.
 
 It allows you to use theses back-up if you destoyed everything with an inentended command, or a mod that wasn't loaded so everything related to it is destroyed, or any others sad story.
+
+
 
 
 **HOW TO USE**
@@ -27,6 +31,8 @@ Once you set the different paths, launch AtlasAutoSaver.exe.
 This will ask you if you want to save Ocean or Blackwood, then it will launch the game and save every X minutes.
 
 The program will check if the game is running before each new save, and will Exit if not.
+
+
 
 
 **.INI INFO**
